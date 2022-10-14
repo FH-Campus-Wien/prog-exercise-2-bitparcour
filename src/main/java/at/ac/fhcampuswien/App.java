@@ -212,7 +212,7 @@ Scanner kb=new Scanner(System.in);
             System.out.println("Invalid mark!");
         }
         }while(m>0);
-        float f=(float)summarum/(float) i;
+        float f=(float) summarum/i;
         System.out.printf("Average: %.2f", f);
         System.out.println();
         System.out.println("Negative marks: "+n);
